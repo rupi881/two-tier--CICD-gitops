@@ -7,7 +7,7 @@ pipeline{
         stage("Code Clone"){
             steps{
                script{
-                   clone("https://github.com/elite-SR/two-tier-flask-app.git", "main")
+                   clone("https://github.com/elite-SR/two-tier-CICD-gitops.git", "main")
                }
             }
         }
